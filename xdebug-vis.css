@@ -1,0 +1,32 @@
+body {
+    overflow-y: scroll;
+}
+#flamegraph {
+    background-color: #464646;
+}
+
+rect {
+    stroke: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: block;
+}
+
+.optional-parameters {
+    white-space: pre;
+}
+
+#upload {
+    border-radius: 1em;
+}
+
+#upload .upload-border {
+    border: 3px dashed #888;
+    border-radius: 1em;
+    margin: 0.5em;
+    padding: 1em;
+}
